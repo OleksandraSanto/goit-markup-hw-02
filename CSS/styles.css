@@ -1,93 +1,34 @@
 .main {
-font-family: 'Roboto', sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
-    font-size: 16px;
-    line-height: 1.5;
-}
-
-.logo{
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-}
-.header-logo-light {
-    color: #4d5ae5;
-}
-
-.header-logo-dark {
-    color: #2e2f42
-}
-
-.header-nav-item, .contact {
-    color: #2e2f42;
-        font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
+        color: #434455;
+        background-color: #FFFFFF;
         font-size: 16px;
-        font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 0.02em;
-        text-align: left;
+        line-height: 1.5;
 }
 
+.header-logo-light {}
 
-.title {
+.logo {}
 
-}
+.header-logo-dark {}
 
-.title-title {
-        color: rgb(255, 255, 255);
-            font-family: Roboto;
-            font-size: 56px;
-            font-weight: 700;
-            line-height: 60px;
-            letter-spacing: 0.02em;
-            text-align: center;
-            /* NAVY BLUE */
-            background: rgb(46, 47, 66);
-}
+.header-nav-item {}
 
-.title-btn {
-    color: rgb(255, 255, 255);
-        font-family: Roboto;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 0.04em;
-        text-align: left;
-        background-color: rgb(77, 90, 229);
-}
+.contact {}
 
-.undertitle {
-    background-color: #2e2f42;
+.hero {}
 
-}
+.hero-title {}
 
-.undertitle-subject {
-    color: rgb(46, 47, 66);
-        font-family: Roboto;
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 2%;
-        text-align: left;
-}
+.hero-btn {}
 
-.undertitle-list {
+.undertitle {}
 
-}
+.undertitle-subject {}
 
-.undertitle-item {
-color: rgb(67, 68, 85);
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 2%;
-    text-align: left;
-}
+.undertitle-list {}
+
+.undertitle-item {}
 
 .undertitle-subtitle {}
 
@@ -95,90 +36,34 @@ color: rgb(67, 68, 85);
 
 .team {}
 
-.team-title, .portfolio-title {
-    color: rgb(46, 47, 66);
-        font-family: Roboto;
-        font-size: 36px;
-        font-weight: 700;
-        line-height: 40px;
-        letter-spacing: 2%;
-        text-align: center;
-}
+.team-title {}
 
 .team-list {}
 
-.team-item {
-    color: rgb(67, 68, 85);
-        font-family: Roboto;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 2%;
-        text-align: center;
-}
+.team-item {}
 
 .team-img {}
 
-.team-subtitle, .portfolio-subtitle {
-    color: rgb(46, 47, 66);
-        font-family: Roboto;
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 2%;
-        text-align: center;
-}
+.team-subtitle {}
 
-.team-text, .portfolio-text {
-    color: rgb(67, 68, 85);
-        font-family: Roboto;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 2%;
-}
+.team-text {}
 
-.portfolio-subtitle{
-        text-align: left;
-    }
+.portfolio-title {}
 
+.portfolio-list {}
 
-.portfolio-text {
-    text-align: left;
-}
+.portfolio-item {}
 
-.footer-logo {
-    background: rgb(46, 47, 66);
-}
+.portfolio-img {}
 
-.footer-logo-dark {
-    color: rgb(77, 90, 229);
-        font-family: Raleway;
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 21px;
-        letter-spacing: 3%;
-        text-align: left;
-        text-transform: uppercase;
-}
+.portfolio-subtitle {}
 
-.footer-logo-light {
-    color: rgb(244, 244, 253);
-        font-family: Raleway;
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 21px;
-        letter-spacing: 3%;
-        text-align: left;
-        text-transform: uppercase;
-}
+.portfolio-text {}
 
-.footer-text {
-    color: rgb(244, 244, 253);
-        font-family: Roboto;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 2%;
-        text-align: left;
-}
+.footer-logo {}
+
+.footer-logo-dark {}
+
+.footer-logo-light {}
+
+.footer-text {}
