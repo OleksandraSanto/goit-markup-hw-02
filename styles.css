@@ -1,169 +1,180 @@
-.logo {
-    font-family: var(--second-family);
-        font-weight: 700;
+.body {
+font-family: "Roboto", sans-serif;
+color: #434455;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+.header-logo-light {
+    font-weight: 700;
         font-size: 18px;
         line-height: 117%;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: var(--iris);
+    color: rgb(77, 90, 229);
 }
 
-.logo-dark, .footer-logo-dark {
-    color: var(--navy-blue)
+.header-logo-dark {
+    color: rgb(46, 47, 66)
 }
-.nav-list {}
 
-.nav-item {
-    font-family: var(--font-family);
+.header-nav-item, .contact {
+    color: rgb(46, 47, 66);
+        font-family: Roboto;
+        font-size: 16px;
         font-weight: 500;
-        font-size: 16px;
-        line-height: 150%;
-        letter-spacing: 0.02em;
-        color: var(--navy-blue);
+        line-height: 24px;
+        letter-spacing: 2%;
+        text-align: left;
+        color: rgb(46, 47, 66);
 }
 
-.contact {
-    font-family: var(--font-family);
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 150%;
-        letter-spacing: 0.02em;
-        color: var(--slate);
-}
-
-.title-dark {}
 
 .title {
-    font-family: var(--font-family);
-        font-weight: 700;
-        font-size: 56px;
-        line-height: 107%;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: var(--white);
-        background: var(--navy-blue);
+
 }
 
-.btn {
-    font-family: var(--font-family);
-        font-weight: 500;
+.title-title {
+        color: rgb(255, 255, 255);
+            font-family: Roboto;
+            font-size: 56px;
+            font-weight: 700;
+            line-height: 60px;
+            letter-spacing: 2%;
+            text-align: center;
+            /* NAVY BLUE */
+            background: rgb(46, 47, 66);
+}
+
+.title-btn {
+    color: rgb(255, 255, 255);
+        font-family: Roboto;
         font-size: 16px;
-        line-height: 150%;
-        letter-spacing: 0.04em;
-        color: var(--white);
-        border-radius: 4px;
-        padding: 16px 32px;
-        width: 169px;
-        height: 56px;
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-        background: var(--iris);
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 4%;
+        text-align: left;
+        background-color: rgb(77, 90, 229);
 }
 
 .undertitle {}
 
-.subject {
-
-}
-
-.subject-list {}
-
-.subject-item {}
-
-.subject-subtitle {
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 120%;
-    letter-spacing: 0.02em;
-    color: var(--navy-blue);
-}
-
-.subject-text {
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-    color: var(--slate);
-
-    .team {}
-.team-title, .portfolio-title {font-family: var(--font-family);
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 111%;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: var(--navy-blue);}
-    
-.team-list {}
-    
-.team-item {}
-    
-.team-img {}
-    
-.team-subtitle {
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 120%;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: var(--navy-blue);}
-    
-.team-text {
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: var(--slate);
-}
-
-.portfolio-title {}
-        
-.portfolio-list {}
-        
-.portfolio-item {}
-        
-.portfolio-img {}
-        
-.portfolio-subtitle {
-    font-family: var(--font-family);
-        font-weight: 500;
+.undertitle-subject {
+    color: rgb(46, 47, 66);
+        font-family: Roboto;
         font-size: 20px;
-        line-height: 120%;
-        letter-spacing: 0.02em;
-        color: var(--navy-blue);
-    }
-        
-.portfolio-text {
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-    color: var(--slate);
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 2%;
+        text-align: left;
 }
 
+.undertitle-list {
 
-                
-            
+}
+
+.undertitle-item {
+color: rgb(67, 68, 85);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 2%;
+    text-align: left;
+}
+
+.undertitle-subtitle {}
+
+.undertitle-text {}
+
+.team {}
+
+.team-title, .portfolio-title {
+    color: rgb(46, 47, 66);
+        font-family: Roboto;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 2%;
+        text-align: center;
+}
+
+.team-list {}
+
+.team-item {
+    color: rgb(67, 68, 85);
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 2%;
+        text-align: center;
+}
+
+.team-img {}
+
+.team-subtitle, .portfolio-subtitle {
+    color: rgb(46, 47, 66);
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 2%;
+        text-align: center;
+}
+
+.team-text, .portfolio-text {
+    color: rgb(67, 68, 85);
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 2%;
+}
+
+.portfolio-subtitle{
+        text-align: left;
+    }
+
+
+.portfolio-text {
+    text-align: left;
+}
+
+.footer-logo {
+    background: rgb(46, 47, 66);
+}
+
+.footer-logo-dark {
+    color: rgb(77, 90, 229);
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 3%;
+        text-align: left;
+        text-transform: uppercase;
+}
+
 .footer-logo-light {
-    font-family: var(--second-family);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 117%;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--cloud);
+    color: rgb(244, 244, 253);
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 3%;
+        text-align: left;
+        text-transform: uppercase;
 }
 
 .footer-text {
-    font-family: var(--font-family);
-        font-weight: 400;
+    color: rgb(244, 244, 253);
+        font-family: Roboto;
         font-size: 16px;
-        line-height: 150%;
-        letter-spacing: 0.02em;
-        color: var(--cloud);
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 2%;
+        text-align: left;
 }
