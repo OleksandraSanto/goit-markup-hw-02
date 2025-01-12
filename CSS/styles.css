@@ -48,8 +48,8 @@ font-weight: 500;
 }
 .nav-link:hover,
 .nav-link:focus,
-.contacts-list:hover,
-.contacts-list:focus {
+.contacts-link:hover,
+.contacts-link:focus {
 color: #404bbf;
 }
 .address {
@@ -67,12 +67,95 @@ color: #404bbf;
     color: #434455;
     font-style: normal;
 }
+.hero {
+    background-color: #2e2f42;
+}
 
+.hero-title {
+    font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07143;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #fff;
+}
 
+.hero-btn {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #fff;
+}
+.undertitle {}
+
+.undertitle-subject {}
+
+.undertitle-list {}
+
+.undertitle-item {}
+
+.undertitle-subtitle, .team-subtitle, .portfolio-subtitle {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+
+.undertitle-text, .team-text, .portfolio-text {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+.team {}
+
+.team-title, .portfolio-title {
+font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.team-list {}
+
+.team-item {}
+
+.team-img {}
+
+.team-subtitle {
+
+}
+
+.team-text {
+
+}
+.portfolio-title {}
+
+.portfolio-list {}
+
+.portfolio-item {}
+
+.portfolio-img {}
+
+.portfolio-subtitle {}
+
+.portfolio-text {}
 
 .page-footer{
 background-color: #2e2f42;
 }
 .footer-logo .logo-part{
     color: #f4f4fd;
+}
+.footer-text{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #f4f4fd;
 }
